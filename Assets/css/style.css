@@ -208,26 +208,29 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 }
 
 .sert {
-	display:flex;
-	justify-content:space-between;
+	display: flex;
 	align-items: center;
-	padding-left: 150px;
-	padding-right: 150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .sert1 {
 	width: 400px;
 	height: 550px;
+	margin-left: auto;
 }
 
 .sert2 {
 	width: 400px;
 	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .sert3 {
 	width: 400px;
 	height: 550px;
+	margin-right: auto;
 }
 
 .hob {
