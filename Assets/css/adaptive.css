@@ -1,0 +1,462 @@
+/* CSS Document */
+
+@media all and (max-width: 1400px){
+	body { 
+	    background-size: 1500px 1500px;
+	}
+	.header-content {
+		display: block;
+		padding-bottom: 50px;
+	}
+	
+	.photo {
+		width: 600px;
+		height: 420px;
+	}
+
+	.signature {
+		width: 365px;
+		font-size: 24px;
+		padding: 3px;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	
+	.main-photo {
+		margin: 0 auto;
+	}
+	.main-text {
+		margin-top: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 450px;
+	}
+
+    .text1 {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+		font-size: 25px;
+	}
+
+.about {
+	font-size: 25px;
+}
+
+}
+/* Large Devices, Wide Screens */
+@media all and (max-width: 1200px) {
+	
+	body { 
+	    margin: 0;
+	    font-size: 26px;
+	    font-family: 'Ubuntu', sans-serif;
+	    line-height: 1.6;
+	    color:#FFFFFF;
+	    text-align: justify;
+	    text-decoration: none;
+	    text-indent: 3px;
+	    letter-spacing: normal;
+	    word-spacing: normal; 
+	    text-shadow: 1px 2px 2px black;
+	    background-image: -webkit-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -moz-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -o-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: linear-gradient(63deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-size: 1500px 1500px;
+	    background-clip: border-box;
+	}
+	.header-content {
+		display: block;
+		padding-bottom: 50px;
+	}
+	
+	.main-photo {
+		margin: 0 auto;
+	}
+	
+	.photo {
+        height: 420px;
+        max-width: 600px;
+        border-radius: 50px;
+        box-shadow: 5px 3px 5px rgb(206 182 221);
+    }
+	.signature {
+		width: 365px;
+		font-size: 24px;
+		padding: 3px;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	
+	.main-text {
+        height: 385px;
+        width: 620px;
+        max-width: 650px;
+	    padding: 55px;
+		margin-top: 45px;
+	}
+	
+	.text {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+	}
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media all and (max-width: 992px) {
+	
+    body { 
+	    margin: 0;
+	    font-size: 25px;
+	    font-family: 'Ubuntu', sans-serif;
+	    line-height: 1.6;
+	    color:#FFFFFF;
+	    text-align: justify;
+	    text-decoration: none;
+	    text-indent: 3px;
+	    letter-spacing: normal;
+	    word-spacing: normal; 
+	    text-shadow: 1px 2px 2px black;
+	    background-image: -webkit-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -moz-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -o-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: linear-gradient(63deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-size: 1500px 1500px;
+	    background-clip: border-box;
+	}
+	.header-content {
+		display: block;
+		padding-bottom: 50px;
+	}
+	
+	.photo-sign {
+	    justify-content: center;
+	}
+	.main-photo {
+		margin: 0 auto;
+        height: 320px;
+        max-width: 475px;
+	}
+	
+	.photo {
+        height: 325px;
+        max-width: 475px;
+        border-radius: 50px;
+        box-shadow: 5px 3px 5px rgb(206 182 221);
+    }
+	.signature {
+		width: 365px;
+		font-size: 24px;
+		padding: 3px;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	
+	.main-text {
+        height: 500px;
+        width: 450px;
+        max-width: 650px;
+	    padding: 45px;
+		margin-top: 45px;
+	}
+	
+	.text {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media all and (max-width: 768px) {
+	body { 
+	    margin: 0;
+	    font-size: 21px;
+	    font-family: 'Ubuntu', sans-serif;
+	    line-height: 1.6;
+	    color:#FFFFFF;
+	    text-align: justify;
+	    text-decoration: none;
+	    text-indent: 3px;
+	    letter-spacing: normal;
+	    word-spacing: normal; 
+	    text-shadow: 1px 2px 2px black;
+	    background-image: -webkit-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -moz-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -o-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: linear-gradient(63deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-size: 1500px 1500px;
+	    background-clip: border-box;
+	}
+	.header-content {
+		display: block;
+		padding-bottom: 50px;
+		padding-left: 27px;
+	    padding-right: 27px;
+	}
+	
+	.photo-sign {
+	    justify-content: center;
+	}
+	.main-photo {
+		margin: 0 auto;
+        height: 295px;
+        max-width: 425px;
+	}
+	
+	.photo {
+        height: 295px;
+        max-width: 425px;
+        border-radius: 50px;
+        box-shadow: 5px 3px 5px rgb(206 182 221);
+    }
+	.signature {
+		width: 325px;
+		font-size: 24px;
+		padding: 3px;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	
+	.main-text {
+        height: 575px;
+        width: 320px;
+        max-width: 650px;
+	    padding: 45px;
+		margin-top: 45px;
+	}
+	
+	.text {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+		font-size: 22px;
+	}
+	
+	.text1 {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+		font-size: 21px;
+		}
+}
+
+/* Extra Small Devices, Phones */
+@media all and (max-width: 480px) {
+	
+	body { 
+	    margin: 0;
+	    font-size: 15px;
+	    font-family: 'Ubuntu', sans-serif;
+	    line-height: 1.6;
+	    color:#FFFFFF;
+	    text-align: justify;
+	    text-decoration: none;
+	    text-indent: 3px;
+	    letter-spacing: normal;
+	    word-spacing: normal; 
+	    text-shadow: 1px 2px 2px black;
+	    background-image: -webkit-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -moz-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -o-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: linear-gradient(63deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-size: 1500px 1500px;
+	    background-clip: border-box;
+	}
+	
+	.translate {
+	    position: relative;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    height: 55px;
+	    max-width: 80px;
+	    border-radius: 12px;
+	    border: solid rgba(74,5,184,1.00) 2px;
+	    margin-right: 10px;
+	    padding: 0px;
+	    background-color: blue;
+	
+	}
+
+    .translate:hover {
+	    position: relative;
+	    height: 55px;
+	    max-width: 80px;
+	    border-radius: 12px;
+	    border: solid rgba(74,5,184,1.00) 1px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    margin-right: 25px;
+	    padding: 0px;
+	    background-color: blue;
+	}
+	
+    .icon-translate {
+	    height: 50px;
+	    max-width: 80px;
+	    border-radius: 12px;
+	    margin-right: 25px;
+	    padding: 0px;
+	}
+	
+	.header-content {
+		display: block;
+		padding-bottom: 50px;
+		padding-left: 15px;
+	    padding-right: 15px;
+	}
+	
+	.photo-sign {
+	    justify-content: center;
+	}
+	.main-photo {
+		margin: 0 auto;
+        height: 195px;
+        max-width: 290px;
+	}
+	
+	.photo {
+        height: 195px;
+        max-width: 290px;
+        border-radius: 50px;
+        box-shadow: 5px 3px 5px rgb(206 182 221);
+    }
+	.signature {
+		width: 215px;
+		font-size: 24px;
+		padding: 3px;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	
+	.main-text {
+        height: 530px;
+        width: 195px;
+        max-width: 310px;
+	    padding: 45px;
+		margin-top: 45px;
+	}
+	
+	.text {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+		font-size: 15px;
+	}
+	
+	.text1 {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+		font-size: 16px;
+		}
+}
+
+/* Custom, Iphone Retina */
+@media all and (max-width: 320px) {
+	
+	body { 
+	    margin: 0;
+	    font-size: 12px;
+	    font-family: 'Ubuntu', sans-serif;
+	    line-height: 1.6;
+	    color:#FFFFFF;
+	    text-align: justify;
+	    text-decoration: none;
+	    text-indent: 3px;
+	    letter-spacing: normal;
+	    word-spacing: normal; 
+	    text-shadow: 1px 2px 2px black;
+	    background-image: -webkit-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -moz-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: -o-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-image: linear-gradient(63deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	    background-size: 1500px 1500px;
+	    background-clip: border-box;
+	}
+	
+	.translate {
+	    position: relative;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    height: 55px;
+	    max-width: 80px;
+	    border-radius: 12px;
+	    border: solid rgba(74,5,184,1.00) 2px;
+	    margin-right: 10px;
+	    padding: 0px;
+	    background-color: blue;
+	
+	}
+
+    .translate:hover {
+	    position: relative;
+	    height: 55px;
+	    max-width: 80px;
+	    border-radius: 12px;
+	    border: solid rgba(74,5,184,1.00) 1px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    margin-right: 25px;
+	    padding: 0px;
+	    background-color: blue;
+	}
+	
+    .icon-translate {
+	    height: 50px;
+	    max-width: 80px;
+	    border-radius: 12px;
+	    margin-right: 25px;
+	    padding: 0px;
+	}
+	
+	.header-content {
+		display: block;
+		padding-bottom: 50px;
+		padding-left: 5px;
+	    padding-right: 5px;
+	}
+	
+	.photo-sign {
+	    justify-content: center;
+	}
+	.main-photo {
+		margin: 0 auto;
+        height: 150px;
+        max-width: 220px;
+	}
+	
+	.photo {
+        height: 150px;
+        max-width: 220px;
+        border-radius: 50px;
+        box-shadow: 5px 3px 5px rgb(206 182 221);
+    }
+	.signature {
+		width: 170px;
+		font-size: 24px;
+		padding: 3px;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	
+	.main-text {
+        height: 485px;
+        width: 120px;
+        max-width: 180px;
+	    padding: 45px;
+		margin-top: 45px;
+	}
+	
+	.text {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+		font-size: 13px;
+	}
+	
+	.text1 {
+		color: black;
+        text-shadow: 0px 0px 0px black;
+		font-size: 12px;
+		}
+}
