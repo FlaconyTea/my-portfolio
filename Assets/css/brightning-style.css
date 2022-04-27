@@ -1,4 +1,5 @@
 /* CSS Document */
+
 body {
 	margin: 0;
 	font-size: 20px;
@@ -11,10 +12,10 @@ body {
 	letter-spacing: normal;
 	word-spacing: normal;
 	text-shadow: 1px 2px 2px black;
-	background-image: -webkit-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%) ;
-	background-image: -moz-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%) ;
-	background-image: -o-linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%) ;
-	background-image: linear-gradient(27deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	background-image: -webkit-linear-gradient(27deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
+	background-image: -moz-linear-gradient(27deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
+	background-image: -o-linear-gradient(27deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
+	background-image: linear-gradient(63deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
 	background-size: 5500px 5500px;
 	background-clip: border-box;
 }
@@ -37,7 +38,10 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 }
 
 .dropbtn {
-    background-image: linear-gradient(63deg,rgba(54,9,126,1.00) 0%,rgba(101,27,114,0.99) 100%);
+	background-image: -webkit-linear-gradient(27deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
+	background-image: -moz-linear-gradient(27deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
+	background-image: -o-linear-gradient(27deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
+	background-image: linear-gradient(63deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
 	color: #8C8C8C;
 	padding: 20px;
 	font-size: 16px;
@@ -45,17 +49,16 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 	border-bottom-right-radius: 10px;
 	cursor: pointer;
 	-webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+	transition-duration: 0.4s;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .dropbtn:hover {
-	background-image: -webkit-linear-gradient(90deg,rgba(185,66,245,1.00) 0%,rgba(87,55,251,1.00) 100%);
-	background-image: -moz-linear-gradient(90deg,rgba(185,66,245,1.00) 0%,rgba(87,55,251,1.00) 100%);
-	background-image: -o-linear-gradient(90deg,rgba(185,66,245,1.00) 0%,rgba(87,55,251,1.00) 100%);
-	background-image: linear-gradient(90deg,rgba(185,66,245,1.00) 0%,rgba(87,55,251,1.00) 100%);
+	background-image: -webkit-linear-gradient(0deg,rgba(55,4,81,1.00) 0%,rgba(33,18,110,1.00) 100%);
+	background-image: -moz-linear-gradient(0deg,rgba(55,4,81,1.00) 0%,rgba(33,18,110,1.00) 100%);
+	background-image: -o-linear-gradient(0deg,rgba(55,4,81,1.00) 0%,rgba(33,18,110,1.00) 100%);
+	background-image: linear-gradient(90deg,rgba(55,4,81,1.00) 0%,rgba(33,18,110,1.00) 100%);
 	color: white;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
-		
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)		
 }
 
 .dropdown {
@@ -66,21 +69,22 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: darkslateblue;
+    background-color: #000002;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color:aliceblue;
+    color: #5f61d3;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-	background-color: #B904C4;
+	color: white;
+	background-color: #67016c;
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;}
 
@@ -190,18 +194,18 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 	padding-top: 50px;
 	box-shadow: 5px 5px 5px rgba(206,182,221,1.00);
 	margin-left: 30px;
-	background-color: azure;
+	background-color: #022727;
 
 }
 
 .text {
-	color: black;
+	color: #c9c1bd;
 	text-shadow: 0px 0px 0px black;
 	text-align: center;
 }
 
 .text1 {
-	color: black;
+	color: #c9c1bd;
 	text-shadow: 0px 0px 0px black;
 	text-align: justify;
 }
@@ -209,11 +213,11 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 	position: relative;
 	width: 300px;
 	border-style: groove;
-	border-color:midnightblue;
+	border-color: midnightblue;
 	border-width: 3px;
 	border-radius: 50px;
 	box-shadow: 5px 5px 5px rgba(206,182,221,1.00);
-	background-color: azure;
+	background-color: #022727;
 	font-size: 18px;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -222,7 +226,7 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 
 .about {
 	text-align: center;
-	color: black;
+	color: #c9c1bd;
 	text-shadow: 0px 0px 0px black;
 }
 
@@ -307,8 +311,8 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 	border-width: 3px;
 	border-radius: 35px;
 	padding: 20px;
-	background-color: azure;
-	color: black;
+	background-color: #022727;
+	color: #c9c1bd;
 	text-shadow: 0px 0px 0px black;
 }
 
@@ -323,7 +327,7 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 	padding-top: 25px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: azure;
-	color: black;
+	background-color: #022727;
+	color: #c9c1bd;
 	text-shadow: 0px 0px 0px black;
 }
