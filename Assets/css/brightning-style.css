@@ -12,7 +12,7 @@ body {
 	letter-spacing: normal;
 	word-spacing: normal;
 	text-shadow: 1px 2px 2px black;
-	background-image: -webkit-linear-gradient(27deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
+    background-image: -webkit-linear-gradient(27deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
 	background-image: -moz-linear-gradient(27deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
 	background-image: -o-linear-gradient(27deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
 	background-image: linear-gradient(63deg,rgba(38,5,88,1.00) 0%,rgba(28,2,33,0.99) 100%);
@@ -38,10 +38,10 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 }
 
 .dropbtn {
-	background-image: -webkit-linear-gradient(27deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
-	background-image: -moz-linear-gradient(27deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
-	background-image: -o-linear-gradient(27deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
-	background-image: linear-gradient(63deg,rgba(48,27,82,1.00) 0%,rgba(72,36,78,0.99) 99.48%);
+	background-image: -webkit-linear-gradient(0deg,rgba(56,8,81,1.00) 0%,rgba(21,12,67,1.00) 100%);
+	background-image: -moz-linear-gradient(0deg,rgba(56,8,81,1.00) 0%,rgba(21,12,67,1.00) 100%);
+	background-image: -o-linear-gradient(0deg,rgba(56,8,81,1.00) 0%,rgba(21,12,67,1.00) 100%);
+	background-image: linear-gradient(90deg,rgba(56,8,81,1.00) 0%,rgba(21,12,67,1.00) 100%);
 	color: #8C8C8C;
 	padding: 20px;
 	font-size: 16px;
@@ -97,8 +97,8 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 .translate {
 	position: relative;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	height: 68px;
-	max-width: 99px;
+	height: 58px;
+	max-width: 89px;
 	border-radius: 12px;
 	border: solid rgba(74,5,184,1.00) 2px;
 	margin-right: 25px;
@@ -109,8 +109,8 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 
 .translate:hover {
 	position: relative;
-	height: 68px;
-	max-width: 99px;
+	height: 58px;
+	max-width: 89px;
 	border-radius: 12px;
 	border: solid rgba(74,5,184,1.00) 1px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -119,9 +119,9 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0}
 	background-color: blue;
 }
 .icon-translate {
-	height: 65px;
-	max-width: 97px;
-	border-radius: 12px;
+	height: 55px;
+	max-width: 87px;
+	border-radius: 10px;
 	margin-right: 25px;
 	padding: 0px;
 }
